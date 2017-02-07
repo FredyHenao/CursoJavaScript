@@ -24,3 +24,26 @@ var c ={
 };
 var d = c;
 c.nombre = "maria";
+
+//la notacion punto sirve para obtener los valores de un objeto
+var persona ={
+  nombre: "juana",
+  edad: 20,
+  direccion:{
+    pais: "colombia",
+    ciudad: "faca",
+    edificio:{
+      nombre: "principal",
+      telefono: "42342-32423"
+    }
+  }
+};
+//console.log(persona.direccion);
+//console.log(persona.direccion.pais);
+persona.direccion.code = 1234567890;//agregar una nueva variable
+
+//notacion corchete sirve para obtener los valores de un objetos
+/*console.log(persona["nombre"]);
+console.log(persona["direccion"]["pais"]);*/
+/*var campo = "edad";
+console.log(persona[campo]);*/
