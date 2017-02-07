@@ -17,4 +17,10 @@ var obj ={
   numero: 10,
   texto: "nuevo texto"
 };
-console.log(obj);
+//los datos promitivos se pasan variables por valor
+//Los objetos siempre se pasan por referencia
+var c ={
+  nombre: "juana"
+};
+var d = c;
+c.nombre = "maria";
