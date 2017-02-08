@@ -1,4 +1,4 @@
-var persona={
+/*var persona={
   nombre: "juan",
   apellido: "gomez",
   //metodo
@@ -19,4 +19,12 @@ var persona={
 }
 
 persona.imprimirNombre();
-persona.direccion.obtenerPais();
+persona.direccion.obtenerPais();*/
+
+//palabra reservada new
+function Persona() {
+  this.nombre = "fredy";
+  this.apellido = "henao";
+}
+var juan = new Persona();
+console.log(juan);
