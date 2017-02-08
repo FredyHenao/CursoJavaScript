@@ -26,10 +26,21 @@ imprimir({
 });*/
 
 //enviar funciones a funciones
-function imprimir( fn ) {
+/*function imprimir( fn ) {
     fn();
 }
 
 imprimir(function () {
   console.log("funcion anonima");
-});
+});*/
+
+//funciones de primera clase
+function a() {
+  console.log("hola mundo");
+}
+a();
+a.nombre="fredy";
+a.direccion = {
+  pais: "colombia"
+  
+}
