@@ -7,3 +7,4 @@ a = a.toString();
 console.log(a);*/
 //la funcion toPrecision() sirve para redondear el  numero  example a.toPrecision(4)
 //NaN(not a Number)
+//valueOf() sirve para poner una variable inicializada como un objeto a valor primitivo
